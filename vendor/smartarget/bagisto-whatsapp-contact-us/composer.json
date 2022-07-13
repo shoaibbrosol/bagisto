@@ -1,0 +1,25 @@
+{
+    "name": "smartarget/bagisto-whatsapp-contact-us",
+    "description": "Allow customers to contact you using Whatsapp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smartarget",
+            "email": "Support@smartarget.online"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Smartarget\\WhatsappContactUs\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smartarget\\WhatsappContactUs\\Providers\\WhatsappContactUsServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev",
+    "version": "1.0",
+    "require": {}
+}
